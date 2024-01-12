@@ -8,7 +8,7 @@
 
             while (have_posts()) :
                 the_post();
-                get_template_part('./partials/single', 'page', get_post_format());
+                get_template_part('./partials/content');
             // do more stuffs
             endwhile;
 
